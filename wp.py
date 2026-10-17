@@ -12,6 +12,7 @@
   python wp.py create --type articles --title "Заголовок" --content-file post.html
   python wp.py update 123 --type articles --status publish
   python wp.py seo 123 --type articles --title "Заголовок для поиска" --description "Описание"
+  python wp.py term grab --name "Grab" --description "Вступление к странице метки"
 """
 
 import argparse
@@ -183,6 +184,32 @@ def cmd_seo(args):
     print(f"  описание:  {meta.get('description')}")
 
 
+def cmd_term(args):
+    # Метки и другие таксономии: создать или обновить по slug, удалить по slug.
+    found = request("GET", f"wp/v2/{args.taxonomy}", {"slug": args.slug, "context": "edit"})
+    term = found[0] if found else None
+    if args.delete:
+        if not term:
+            raise WPError(f"Нет термина {args.slug}")
+        request("DELETE", f"wp/v2/{args.taxonomy}/{term['id']}", {"force": "true"})
+        print(f"удалён\t{term['id']}\t{args.slug}")
+        return
+    fields = {"slug": args.slug}
+    if args.name is not None:
+        fields["name"] = args.name
+    if args.description is not None:
+        fields["description"] = args.description
+    if term:
+        term = request("POST", f"wp/v2/{args.taxonomy}/{term['id']}", data=fields)
+        action = "обновлён"
+    else:
+        if "name" not in fields:
+            raise WPError("Для нового термина нужен --name")
+        term = request("POST", f"wp/v2/{args.taxonomy}", data=fields)
+        action = "создан"
+    print(f"{action}\t{term['id']}\t{term['slug']}\t{term['name']}\t{term.get('link', '')}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Работа с записями WordPress через REST API")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -230,6 +257,14 @@ def main():
     p.add_argument("--title", help="заголовок для поиска")
     p.add_argument("--description", help="описание для поиска")
     p.set_defaults(func=cmd_seo)
+
+    p = sub.add_parser("term", help="создать, обновить или удалить метку (термин) по slug")
+    p.add_argument("slug")
+    p.add_argument("--taxonomy", default="tags", help="REST-база таксономии (по умолчанию tags)")
+    p.add_argument("--name")
+    p.add_argument("--description")
+    p.add_argument("--delete", action="store_true", help="удалить термин (снимается со всех записей, даты записей не меняются)")
+    p.set_defaults(func=cmd_term)
 
     args = parser.parse_args()
     try:
