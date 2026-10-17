@@ -11,6 +11,7 @@
   python wp.py list --type articles -n 5
   python wp.py create --type articles --title "Заголовок" --content-file post.html
   python wp.py update 123 --type articles --status publish
+  python wp.py seo 123 --type articles --title "Заголовок для поиска" --description "Описание"
 """
 
 import argparse
@@ -165,6 +166,23 @@ def cmd_update(args):
     print_post(request("POST", f"wp/v2/{args.type}/{args.id}", data=fields))
 
 
+def cmd_seo(args):
+    # Тот же маршрут AIOSEO, что у быстрого редактирования в списке записей.
+    if args.title is None and args.description is None:
+        raise WPError("Нечего обновлять: укажите --title и/или --description")
+    current = request("GET", f"wp/v2/{args.type}/{args.id}", {"context": "edit"}).get("aioseo_meta_data") or {}
+    data = {
+        "postId": args.id,
+        "title": args.title if args.title is not None else current.get("title") or "",
+        "description": args.description if args.description is not None else current.get("description") or "",
+    }
+    request("POST", "aioseo/v1/posts-list/update-details-column", data=data)
+    meta = request("GET", f"wp/v2/{args.type}/{args.id}", {"context": "edit"}).get("aioseo_meta_data") or {}
+    print(f"AIOSEO, запись {args.id}")
+    print(f"  заголовок: {meta.get('title')}")
+    print(f"  описание:  {meta.get('description')}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Работа с записями WordPress через REST API")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -205,6 +223,13 @@ def main():
     add_type(p)
     add_fields(p)
     p.set_defaults(func=cmd_update)
+
+    p = sub.add_parser("seo", help="заголовок и описание для поиска (AIOSEO)")
+    p.add_argument("id", type=int)
+    add_type(p)
+    p.add_argument("--title", help="заголовок для поиска")
+    p.add_argument("--description", help="описание для поиска")
+    p.set_defaults(func=cmd_seo)
 
     args = parser.parse_args()
     try:
