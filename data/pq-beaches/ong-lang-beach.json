@@ -1,0 +1,34 @@
+{
+ "slug": "ong-lang-beach",
+ "title": "Пляж Онг Ланг (Bãi Ông Lang)",
+ "seo_title": "Пляж Онг Ланг на Фукуоке: тихие бухты, закат, где выйти к морю",
+ "seo_description": "Пляж Онг Ланг (Bãi Ông Lang) на западе острова Фукуок: бухты с камнями, закат, сезон, лежаки у курортов, бесплатный спуск у храма Зинь Ба и дорога.",
+ "lat": 10.2702,
+ "lng": 103.927,
+ "maps_query": "Bãi Ông Lang Phú Quốc",
+ "district": "onglang",
+ "sources": [
+  "https://www.vietnamairlines.com/en/useful-information/travel-guide/ong-lang-beach",
+  "https://localvietnam.com/phu-quoc/ong-lang-beach-phu-quoc/",
+  "https://phuquocislandguide.com/beaches/ong-lang/",
+  "https://www.tripadvisor.com/Attraction_Review-g469418-d12010702-Reviews-Ong_Lang_beach-Phu_Quoc_Island_Kien_Giang_Province.html",
+  "https://www.nomadotravel.app/vi/attractions/ong-lang-beach",
+  "https://www.foody.vn/phu-quoc/bai-ong-lang/binh-luan",
+  "https://phuquoctrip.com/vi/blog/bai-ong-lang-phu-quoc.html",
+  "https://visitphuquoc.com.vn/en/ong-lang-beach-phu-quoc-vietnams-maldives-on-pearl-island-5809",
+  "https://vinwonders.com/vi/wonderpedia/news/le-hoi-dinh-ba-ong-lang-phu-quoc/",
+  "https://tuoitre.vn/hang-ngan-nguoi-tham-gia-le-hoi-tuong-nho-vo-ong-nguyen-trung-truc-20250216110750274.htm",
+  "https://aroundus.com/p/177490753-ong-lang-beach",
+  "http://www.beach-on-map.com/ong-lang.html"
+ ],
+ "unsure": [
+  "Координаты 10.2702, 103.927 — среднее двух совпадающих источников (10.26987,103.92718 и 10.270474,103.926836); в Google Maps не сверено. Пляж — цепочка бухт, точка ставит середину.",
+  "Цены (лежак ~200 000 в Ancarine, депозит 500 000 в On the Sand / Mango Bay) — из одного гида (phuquocislandguide, 2026), на сайтах заведений не проверены; Ancarine в текст по имени не вошёл.",
+  "Где открыт бесплатный проход: гиды называют спуск у Dinh Bà и конец дороги у Ocean Bay Resort; отзыв 2026 — застройщики ставят ворота и охрану, в марте 2026 закрыт проход у Coco Resort. Текущее положение не проверено.",
+  "Праздник Dinh Bà Ông Lang — 18–19 числа 1-го лунного месяца (vinwonders, Tuổi Trẻ 16.02.2025); григорианские даты на 2027 год в текст не ставили. Для data/history-days.csv дата лунная — в формат MM-DD не ложится, не вносили.",
+  "Расстояние от аэропорта 15–18 км — по карте, не по источнику.",
+  "Адрес «Cửa Dương» — бывшая община; в новом формате без xã."
+ ],
+ "photos": "1) небольшая бухта с камнями на закате; 2) мелководье и вход в воду у камней; 3) храм Зинь Ба Онг Ланг у моря (ориентир бесплатного спуска); 4) бунгало или пляжный ресторан у воды.",
+ "id": 18915
+}

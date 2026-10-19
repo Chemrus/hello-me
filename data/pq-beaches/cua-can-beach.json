@@ -1,0 +1,34 @@
+{
+ "slug": "cua-can-beach",
+ "title": "Пляж Куа Кан (Bãi Cửa Cạn)",
+ "seo_title": "Пляж Куа Кан на Фукуоке: устье реки, каяк и закат",
+ "seo_description": "Пляж Куа Кан (Bãi Cửa Cạn) на западе острова Фукуок: коса в устье реки, каяк среди мангров, цены, медузы и течения, как доехать от Зыонг Донга.",
+ "lat": 10.29203,
+ "lng": 103.91018,
+ "maps_query": "Bãi biển Cửa Cạn Phú Quốc",
+ "district": "onglang",
+ "sources": [
+  "https://dulich.phuquoc.gov.vn/vi/baibiencuacan",
+  "https://dulich.phuquoc.gov.vn/en/baibiencuacan",
+  "https://vinpearl.com/vi/cua-can-phu-quoc-me-man-net-dep-hoang-so-an-minh-noi-dao-ngoc",
+  "https://vinwonders.com/vi/wonderpedia/news/cua-can-phu-quoc-co-gi-kinh-nghiem-kham-pha-moi-nhat/",
+  "https://mia.vn/cam-nang-du-lich/huong-dan-duong-di-bai-cua-can-phu-quoc-175",
+  "https://www.vietnamairlines.com/at/vi/plan-book/travel/travel-guide/cua-can",
+  "https://phuquocislandguide.com/regions/cua-can/",
+  "https://vietogram.com/cua-can-beach-phu-quoc-guide/",
+  "https://wanderlog.com/place/details/4520711/cua-can-beach",
+  "https://www.cestee.com/destination/vietnam/phu-quoc/cua-can-beach",
+  "http://www.beach-on-map.com/cua-can.html",
+  "https://tuoitre.vn/khuyen-cao-du-khach-tam-bien-phu-quoc-can-can-than-vao-mua-sua-no-ro-20250505112200571.htm"
+ ],
+ "unsure": [
+  "Координаты: beach-on-map 10.292029, 103.910175 (взяли) и cestee 10.2924, 103.904 — расходятся на ~700 м; в Google Maps не сверено. Точное место устья не нашли.",
+  "Расстояние от Зыонг Донга: официальный портал — 10 км, другие гиды — 6 и 15 км; в тексте 10–15 км. От аэропорта (20–25 км) — по карте.",
+  "Цены каяка 80 000–100 000 и лодки 300 000–400 000 донгов/час — из mia.vn и ещё одного гида, без даты прайса.",
+  "Медузы: в предупреждении Tuổi Trẻ (05.05.2025) названа вся община Cửa Cạn, а не конкретно этот пляж.",
+  "«Не купаться у устья из-за течений» и «наличные» — по одному гиду; длина берега ~3 км — по вьетнамским гидам.",
+  "Название во множественном числе («пляжи») — по заданию; источники говорят об одном пляже у устья длиной ~3 км. Возможно, заголовок стоит сделать «Пляж Куа Кан»."
+ ],
+ "photos": "1) коса в устье: море с одной стороны, река с другой (лучше с высоты); 2) каяк на реке среди мангров/пальм; 3) рыбацкие лодки и деревянные мостки; 4) закат на пляже.",
+ "id": 18914
+}

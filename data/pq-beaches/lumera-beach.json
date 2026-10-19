@@ -1,0 +1,33 @@
+{
+ "slug": "lumera-beach",
+ "title": "Пляж Люмера (Lumera Beach)",
+ "seo_title": "Пляж Люмера на Фукуоке: закат и самолёты у аэропорта",
+ "seo_description": "Пляж Люмера (Lumera Beach) — участок Лонг Бич напротив аэропорта острова Фукуок: закат, самолёты над головой, бары, сезон волн и как доехать.",
+ "lat": 10.1722,
+ "lng": 103.9695,
+ "maps_query": "Lumera Beach Phú Quốc",
+ "district": "longbeach",
+ "sources": [
+  "https://vinhphat.com/en/project/lumera-beach-phu-quoc/",
+  "https://dantri.com.vn/bat-dong-san/chu-dau-tu-vinh-phat-ra-mat-du-an-lumera-beach-tai-phu-quoc-20231002123126498.htm",
+  "https://vneconomy.vn/chu-dau-tu-vinh-phat-chinh-thuc-khoi-cong-va-ra-mat-du-an-lumera-beach-tai-phu-quoc.htm",
+  "https://vnexpress.net/mo-hinh-shopstay-ven-bien-cua-lumera-beach-4660812.html",
+  "https://newland.net.vn/tong-quan-du-an-lumera-beach-phu-quoc/",
+  "https://travelask.ru/questions/5813959_vn_pqc_porekomenduyte-pozhaluysta-na-fukuoke-krasivye-lokatsii-na-l",
+  "https://anotherfinestep.org/luchshie-plyazhi-fukuoka-vo-vetname/",
+  "https://www.spotterguide.net/planespotting/asia/vietnam/phu-quoc-pqc-vvpq/",
+  "https://sprinkle.com/airport/VVPQ",
+  "https://rootytrip.com/en/phu-quoc-long-beach/",
+  "https://dtinews.dantri.com.vn/vietnam-today/five-phu-quoc-tourists-rescued-after-being-swept-to-sea-20250901174403301.htm"
+ ],
+ "unsure": [
+  "Название: «Lumera Beach» — не вьетнамский топоним, а имя комплекса застройщика Vinh Phát (5,7 га, шопхаусы/кондотели, заложен 29.09.2023), под которым участок Лонг Бич подписан на картах. Вьетнамского названия пляжа нет, поэтому в заголовке в скобках латиница, а не «Bãi …».",
+  "Координаты 10.1722, 103.9695 — ПРИБЛИЗИТЕЛЬНЫЕ, не из Google Maps: рассчитаны по порогу ВПП 10 (10.1712, 103.9790, sprinkle.com) и споттер-гиду («бар на пляже ~1000 м до касания»), плюс «комплекс через дорогу от аэропорта». Обязательно сверить в Google Maps по «Lumera Beach Phú Quốc».",
+  "Готовность комплекса (бассейн, beach club, набережная, мосты «Ánh Trăng»/«Hoàng Hôn») не подтверждена: план сдачи — 2 кв. 2025 (продавцы), свежих отзывов о работе нет. Длина берега 400 м — со слов застройщика.",
+  "Описание пляжа (широкий, пальмы, бары, самолёты над головой) — по одной ветке форума travelask и упоминанию в anotherfinestep.org; какие бары рядом сейчас (в ветке — Vida Loca и Ocean beach club), не проверено, в текст не вошли.",
+  "Цен на лежаки на этом участке не нашли. Расстояние до центра Зыонг Донга 8–10 км — по карте района, отдельным источником не проверено.",
+  "Совет про дрон — общее правило (рядом аэропорт), конкретной нормы для этого пляжа не искали."
+ ],
+ "photos": "1) закат над морем с самолётом на посадке над пальмами; 2) широкая полоса песка с пальмами днём; 3) пляжный бар у воды вечером; 4) по желанию — вид на комплекс Lumera Beach, чтобы читатель узнал место.",
+ "id": 18912
+}

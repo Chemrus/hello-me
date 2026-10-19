@@ -1,0 +1,37 @@
+{
+ "slug": "vung-bau-beach",
+ "title": "Пляж Вунг Бау (Bãi Vũng Bầu)",
+ "seo_title": "Пляж Вунг Бау на Фукуоке: тихий полумесяц на северо-западе",
+ "seo_description": "Пляж Вунг Бау (Bãi Vũng Bầu) на северо-западе острова Фукуок: когда спокойное море, где выйти к воде мимо курортов, дорога, течения и медузы.",
+ "lat": 10.30767,
+ "lng": 103.87123,
+ "maps_query": "Bãi Vũng Bầu Phú Quốc",
+ "district": "onglang",
+ "sources": [
+  "https://dulich.phuquoc.gov.vn/vi/baivungbau",
+  "https://vinwonders.com/vi/wonderpedia/news/bai-bien-vung-bau-phu-quoc/",
+  "https://www.vietnamairlines.com/us/vi/plan-book/travel/travel-guide/vung-bau-beach",
+  "https://www.vietnamcoracle.com/phu-quoc-beaches-a-guide/",
+  "https://www.vietnamcoracle.com/vung-bau-beach-phu-quoc/",
+  "https://www.tripadvisor.com/Attraction_Review-g469418-d6692260-Reviews-Vung_Bau_Beach-Phu_Quoc_Island_Kien_Giang_Province.html",
+  "https://onbird.vn/vung-bau-beach-half-moon-beach-phu-quoc-beaches/",
+  "https://luhanhvietnam.com.vn/du-lich/kinh-nghiem-di-bai-bien-vung-bau-phu-quoc.html",
+  "https://www.ivivu.com/blog/2022/08/du-lich-phu-quoc-kham-pha-vung-bau-hoang-so-giua-long-dao-ngoc/",
+  "https://e.vnexpress.net/news/travel/eschuri-vung-bau-new-18-hole-golf-course-in-phu-quoc-4794925.html",
+  "https://www.golfcoursearchitecture.net/content/eschuri-vung-bau-golf-resort-from-woodland-to-the-waters-edge",
+  "https://mia.vn/cam-nang-du-lich/nam-nghi-phu-quoc-island-resort-resort-5-sao-xinh-dep-tren-hon-mong-tay-152",
+  "http://www.beach-on-map.com/vung-bau.html",
+  "https://tuoitre.vn/khuyen-cao-du-khach-tam-bien-phu-quoc-can-can-than-vao-mua-sua-no-ro-20250505112200571.htm"
+ ],
+ "unsure": [
+  "Координаты: Tripadvisor 10.307667, 103.87123 (взяли, середина дуги) и beach-on-map 10.298347, 103.885699 — расходятся на ~1,5–2 км; в Google Maps не сверено. Точка вне рамок районов в lf-district.php (onglang начинается с lng 103.89, baidai — с lat 10.32): district=onglang проставлен по смыслу, автоматом по рамке не попадёт.",
+  "Какая часть берега сейчас открыта: Vietnam Coracle (~2025) — «центр и юг огорожены, слухи о покупке земли Vingroup»; отзывы Tripadvisor — охрана Fusion не пропускает, другие проехали. Где именно общественный проход в 2026 году — не нашли.",
+  "Длина «около 6 км» — из вьетнамских блогов (ivivu, chudu24, luhanhvietnam), возможно завышена.",
+  "Гольф Eschuri Vung Bau (Sun Group + IMG, открыт в октябре 2024): лунки 10–18 «выходят к пляжу» — на какой части бухты, не уточнено.",
+  "Сильные течения в сезон дождей — по одному гиду; отсутствие спасателей — по одной карточке (Sandee/rootytrip).",
+  "Расстояние до аэропорта ~30 км и 45–50 минут — по карте, не по источнику; от Зыонг Донга источники дают 20 км и от 30 до 45 минут.",
+  "Адрес «ấp 4» — из адресов Fusion и Nam Nghi (ấp 4, xã Cửa Cạn)."
+ ],
+ "photos": "1) вся дуга бухты-полумесяца с высоты или с края; 2) закат над Вунг Бау; 3) пустой участок песка с лесом за спиной; 4) дорога/проход к пляжу как ориентир (если снимете общественный спуск — очень пригодится).",
+ "id": 18913
+}

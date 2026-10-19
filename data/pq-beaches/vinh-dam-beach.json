@@ -1,0 +1,35 @@
+{
+ "slug": "vinh-dam-beach",
+ "title": "Пляж Винь Дам (Bãi Vịnh Đầm)",
+ "seo_title": "Пляж Винь Дам на Фукуоке: тихий залив для сезона дождей",
+ "seo_description": "Пляж Винь Дам (Vịnh Đầm) на юго-востоке острова Фукуок: закрытый залив со спокойной водой, бар, душ и парковка, когда ехать и как доехать от аэропорта.",
+ "lat": 10.08195,
+ "lng": 104.01856,
+ "maps_query": "Vịnh Đầm Beach Phú Quốc",
+ "district": "hamninh",
+ "sources": [
+  "https://www.facebook.com/vinhdambeach/",
+  "https://www.tripadvisor.com/Restaurant_Review-g1184676-d33095075-Reviews-V_nh_D_m_Beach-Duong_To_Phu_Quoc_Island_Kien_Giang_Province.html",
+  "https://wanderlog.com/place/details/14613897/v%E1%BB%8Bnh-%C4%91%E1%BA%A7m-beach",
+  "https://stelmakh.com/blog/best-beaches-phu-quoc",
+  "https://stelmakh.com/blog/vinh-dam-beach-phu-quoc-couple-photoshoot-location-guide",
+  "https://visitphuquoc.com.vn/vi/tron-bo-thong-tin-ve-vinh-dam-phu-quoc-danh-cho-du-khach-8256",
+  "https://www.vietnamcoracle.com/phu-quoc-beaches-a-guide/",
+  "https://tuoitre.vn/cang-vinh-dam-cau-noi-phu-quoc-nam-du-20200430144904.htm",
+  "https://ttcphuquoc.vn/linh-vuc-kinh-doanh.html",
+  "https://vinhdamseaside.com/",
+  "https://www.tripadvisor.com/Attraction_Review-g469418-d26773020-Reviews-Dam_Beach-Phu_Quoc_Island_Kien_Giang_Province.html",
+  "https://anotherfinestep.org/luchshie-plyazhi-fukuoka-vo-vetname/"
+ ],
+ "unsure": [
+  "Координаты 10.08195, 104.01856 — точка заведения «Vịnh Đầm Beach» из данных Tripadvisor (через поиск); в Google Maps не сверены (сайты карт и большинство гидов из этой сессии не открывались, только выдержки в поиске). Точка чуть западнее рамки района hamninh (104.02) — район, скорее всего, придётся проставить вручную.",
+  "Инфраструктура (бар, ресторан, парк с пальмами, туалеты, душ, бесплатная парковка, часы ~6:30–22:00) — по блогу фотографа stelmakh.com (2026), visitphuquoc.com.vn и карточке Tripadvisor; независимых свежих отзывов мало. Цен на лежаки и вход не нашли.",
+  "Что вход бесплатный — вывод из того, что ни один источник не пишет о плате; прямого подтверждения нет.",
+  "Расстояния: до Зыонг Донга 23,5 км — это расстояние от порта (старый источник), до Ан Тхоя 6,6 км — тоже от порта; «12–15 минут от аэропорта» — по сайту застройщика Selavia и одному гиду.",
+  "Как залив ведёт себя при северо-восточном ветре в декабре–феврале — данных нет; «спокойно круглый год» пишут только рекламные сайты.",
+  "Положение «между Хам Нинем и пляжем Сао» — по координатам, отдельным источником не подтверждено. Сроки открытия Selavia (в одном гиде — 2027) не вошли в текст.",
+  "Адрес: «ấp Suối Lớn» — из описаний порта и Selavia; в новом формате без xã Dương Tơ."
+ ],
+ "photos": "1) пляж с пальмовым парком и гладкой водой утром; 2) рассвет над заливом; 3) пляжный бар/ресторан с парковкой (как ориентир); 4) общий вид залива с холмами — для честности можно с портовой частью вдали.",
+ "id": 18911
+}
