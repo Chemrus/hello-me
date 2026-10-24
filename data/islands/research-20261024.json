@@ -1,0 +1,268 @@
+{
+  "date": "2026-10-24",
+  "method": "WebSearch snippets only (WebFetch blocked). Coordinates are approximate (map knowledge, ~1-2 km), not taken from official gazetteer. Prices only where 2 sources agree; otherwise null + note. No text copied.",
+  "existing_on_site": {
+    "islands/7794": "Чамские острова — общая статья. Содержит сомнительные факты: «Храм Чамских башен XIII век», «туры ограничены 50 посетителями в день», «деревня Хайян», «музей морской биологии», «ферма лимонного перца», катер 150–200 тыс. в одну сторону, сезон «сентябрь–ноябрь» (на деле это период штормов/отмен). Нет сбора 70 000 VND (с 10.06.2026) и запрета пакетов. Нужна проверка/переписывание.",
+    "attractions/14700": "Cham Islands — короткая общая карточка, без цифр.",
+    "pages/18811": "Район Ан Тхой и Sunset Town: канатка на Хон Том 2026 — взрослый 850 тыс., детский 700 тыс., ~9:30–17:30; туры на острова стартуют из порта Ан Тхой; ссылка на заметку «если лодка перевернулась».",
+    "pages/18701": "Острова Нячанга — хаб-список (Хон Мун, Хон Там, Хон Тре, Зьеп Шон, Хон Мьеу уже есть карточками).",
+    "tours_phuquoc": "10687 (3 острова: Гам Ги, Монг Тай, Май Рут), 10544/10540 (катамаран, Гам Ги), 8525 (3 острова + канатка Хон Том), 8528 (каноэ 3 острова), 8537/12056 (снорклинг Ан Тхой). В текстах: «архипелаг Ан Тхой — 18 островов»; 10687/8537 пишут «май–октябрь — туры ходят» — после катастрофы 11.07.2026 это нужно смягчить.",
+    "tours_nhatrang": "12704 Северные острова (Орхидей + Обезьян, залив Няфу, 25–30 мин); 12632 island hopping (Хон Мун, Хон Там)."
+  },
+  "groups": [
+    {
+      "key": "phuquoc/anthoi-islands",
+      "city": "phuquoc",
+      "name_ru": "Острова архипелага Ан Тхой",
+      "name_vi": "Quần đảo An Thới",
+      "center": [9.94, 104.01],
+      "summary": "18 островов к югу от мыса Ан Тхой (часто пишут «15 обитаемых» — сомнительно; по данным о коммуне Хон Том, население живёт в основном на Хон Том и Хон Рой). Административно: коммуна Hòn Thơm, đặc khu Phú Quốc, провинция An Giang (с 07.2025; старые тексты пишут Kiên Giang). Морской охраняемый район Phú Quốc (KBTB, 2007) охватывает воды архипелага — точные правила зон в сниппетах не найдены.",
+      "islands": [
+        {
+          "name_vi": "Hòn Thơm", "name_ru": "Хон Том (Хон Тхом)", "lat": 9.955, "lng": 104.015,
+          "inhabited": true,
+          "what": "Крупнейший остров архипелага. Sun World Hon Thom: аквапарк Aquatopia, парк Exotica, пляж Бай Чао (Bãi Trào) со спасателями; рыбацкое население (~2,6 тыс. на всю коммуну по старым данным).",
+          "how_to_get": "Канатная дорога ~7,9 км от станции в Sunset Town (Ан Тхой), ~15 мин в одну сторону; билет в обе стороны. Или в составе катерных туров из порта Ан Тхой.",
+          "rules": "Вход через билет Sun World (2026: 850 тыс. взрослый / 700 тыс. детский — по нашей странице 18811, сверено ранее).",
+          "season": "Канатка работает круглый год; ноябрь–апрель — спокойное море и лучшая вода.",
+          "visit_own": true,
+          "overnight": "Гостиниц Sun World в сниппетах не найдено; встречаются маршруты «2 дня 1 ночь» без названий. Не подтверждено.",
+          "suits": "Семьи с детьми, кто хочет аквапарк и канатку без лодок.",
+          "sources": ["https://sunparadiseland.com/SunParadiseLandPhuQuoc/tin-tuc/nhung-dieu-can-biet-khi-di-cap-treo-hon-thom-tu-sunset-town-21088", "https://sunparadiseland.com/SunParadiseLandPhuQuoc/tin-tuc/kinh-nghiem-di-bai-trao-hon-thom-an-gi-choi-gi-di-khi-nao-dep-26209", "https://thuviennhadat.vn/phap-luat/vi-tri-lap-quy-hoach-dao-hon-thom-tai-phu-quoc-an-giang-716516.html"],
+          "unsure": "Ночёвка на острове; промежуточных станций канатки нет (Хон Зыа и Хон Рой только видны из кабины)."
+        },
+        {
+          "name_vi": "Hòn Dừa", "name_ru": "Хон Зыа (Кокосовый)", "lat": 9.985, "lng": 104.01,
+          "inhabited": null,
+          "what": "Ближайший к Ан Тхой остров под трассой канатки; в некоторых турах — остановка («Coconut Island»).",
+          "how_to_get": "Только лодкой из Ан Тхой, в составе тура.",
+          "rules": "Не найдено.", "season": "Ноябрь–апрель.",
+          "visit_own": false, "overnight": "Нет данных.",
+          "sources": ["https://sunparadiseland.com/SunParadiseLandPhuQuoc/tin-tuc/nhung-dieu-can-biet-khi-di-cap-treo-hon-thom-tu-sunset-town-21088", "https://www.tourradar.com/t/170753"],
+          "unsure": "Есть ли население; есть ли станция канатки (один источник упоминал «3 остановки», другие — нет)."
+        },
+        {
+          "name_vi": "Hòn Rỏi (Hòn Rọi)", "name_ru": "Хон Рой", "lat": 9.972, "lng": 104.017,
+          "inhabited": true,
+          "what": "Второй обитаемый остров коммуны Хон Том (рыбаки); под трассой канатки; коралловые сады между Хон Рой и Монг Тай хвалят для снорклинга.",
+          "how_to_get": "Лодка из Ан Тхой.", "rules": "Не найдено.", "season": "Ноябрь–апрель.",
+          "visit_own": false, "overnight": "Нет данных.",
+          "sources": ["https://tienphong.vn/xa-hoi/607341/Hon-Thom-va-nhung-cu-dan-Robinson-tpp.html", "https://www.nomadotravel.app/ru/guides/phu-quoc-island-hopping-guide"],
+          "unsure": "Туристической инфраструктуры нет данных; карточку отдельно не делать."
+        },
+        {
+          "name_vi": "Hòn Móng Tay", "name_ru": "Хон Монг Тай («Ноготь»)", "lat": 9.92, "lng": 104.035,
+          "inhabited": false,
+          "what": "Маленький остров с белым песком, лагуной и кораллами; два причала для катеров; «хозяин острова» (частная семья) — по одному источнику. Самая частая остановка туров «3/4 острова».",
+          "how_to_get": "Лодка/катер из порта Ан Тхой, ~11–15 км, ~30 мин. Аренда частного катера на группу — около 3 млн донгов (VnExpress) и 3–5,5 млн (Visit Phu Quoc 2026) — порядок сходится, но годы разные.",
+          "rules": "Плата за вход/лежаки в 2026 не подтверждена.",
+          "season": "Ноябрь–апрель; май–октябрь — юго-западный муссон, волна.",
+          "visit_own": true,
+          "overnight": "Только палатки, по старому источнику (без сервиса). Не подтверждено на 2026.",
+          "sources": ["https://vnexpress.net/8-diem-tham-quan-o-phu-quoc-4063578.html", "https://visitphuquoc.com.vn/en/detailed-and-updated-2026-phu-quoc-island-speedboat-tour-experience-10002", "https://sunparadiseland.com/SunParadiseLandPhuQuoc/tin-tuc/hon-mong-tay-phu-quoc-hon-dao-hoang-so-giua-bien-troi-nam-dao-12652", "https://znews.vn/4-ngay-ngup-lan-tai-hon-mong-tay-post634251.html"],
+          "unsure": "Один источник называет его же «Hòn Buồm» (местное имя); существует второе «Móng Tay» на северо-западе Фукуока. «Самостоятельно» = только частный катер, общественной переправы нет."
+        },
+        {
+          "name_vi": "Hòn Gầm Ghì (Hòn Dăm Ngang)", "name_ru": "Хон Гам Ги (Гам Ги, Зам Нганг)", "lat": 9.895, "lng": 104.0,
+          "inhabited": false,
+          "what": "Главная точка снорклинга архипелага: плотный риф прямо от берега, видно с лодки. Своего пляжа почти нет.",
+          "how_to_get": "Катер из Ан Тхой, ~10–20 км; почти все туры (10687, 10544, 10540, 8525).",
+          "rules": "Не трогать и не вставать на кораллы. Официальной зоны запрета в сниппетах не найдено.",
+          "season": "Октябрь/ноябрь–март/апрель — лучшая видимость.",
+          "visit_own": false, "overnight": "Нет.",
+          "sources": ["https://mia.vn/cam-nang-du-lich/huong-dan-cach-di-hon-dam-ngang-phu-quoc-191", "https://sunparadiseland.com/SunParadiseLandPhuQuoc/tin-tuc/hon-gam-ghi-kham-pha-vuong-quoc-san-ho-cua-phu-quoc-18444", "https://vinpearl.com/vi/hon-gam-ghi-phu-quoc"],
+          "unsure": "Источники считают Gầm Ghì и Dăm Ngang одним островом; рядом есть отдельный Hòn Dăm с рыбацкой деревней — не подтверждено. Координаты приблизительны."
+        },
+        {
+          "name_vi": "Hòn Mây Rút Trong", "name_ru": "Хон Май Рут Чонг (Внутренний)", "lat": 9.94, "lng": 103.97,
+          "inhabited": false,
+          "what": "Длинный белый пляж, обед и отдых в турах, снорклинг.",
+          "how_to_get": "Катер из Ан Тхой, ~10 км, 20–60 мин в зависимости от судна. Цены 400 тыс. (лодка) / 600 тыс. (катер) за человека туда-обратно — один источник, без года.",
+          "rules": "Не найдено.", "season": "Ноябрь–апрель, лучше март–апрель.",
+          "visit_own": true,
+          "overnight": "Блоги описывают палаточный кемпинг с ночёвкой; разрешение не подтверждено.",
+          "sources": ["https://vinwonders.com/vi/wonderpedia/news/hon-may-rut-phu-quoc/", "https://www.greensm.com/vn-vi/news/hon-may-rut-trong-phu-quoc", "https://mia.vn/cam-nang-du-lich/lich-trinh-cam-trai-phu-quoc-1-ngay-1-dem-ngu-leu-ngam-hoang-hon-tren-hon-may-rut-132"],
+          "unsure": "Цены и правила кемпинга."
+        },
+        {
+          "name_vi": "Hòn Mây Rút Ngoài", "name_ru": "Хон Май Рут Нгоай (Внешний)", "lat": 9.925, "lng": 103.955,
+          "inhabited": false,
+          "what": "Меньший пляж, больше камней; снорклинг. 11.07.2026 катер Ocean Pearl Island с туристами из Индии перевернулся по пути отсюда в Ан Тхой при сильном ветре: 15 погибших, 21 спасён.",
+          "how_to_get": "Катер из Ан Тхой, в турах.",
+          "rules": "После 14.07.2026 (распоряжение đặc khu Phú Quốc, по Công điện 47/CĐ-TTg): выход запрещают при штормовом предупреждении, проверка судов, жилетов, загрузки, документов иностранцев.",
+          "season": "Ноябрь–апрель.", "visit_own": false, "overnight": "Нет данных.",
+          "sources": ["https://vietnamnews.vn/society/1785250/tourist-canoe-carrying-foreign-tourists-capsized-in-phu-quoc-15-confirmed-dead-so-far.html", "https://vietnamnews.vn/society/1785435/phu-quoc-tightens-inland-waterway-safety-traffic-management.html", "https://tuoitre.vn/sau-vu-lat-ca-no-o-phu-quoc-don-vi-kinh-doanh-dich-vu-ca-no-chuan-bi-don-khach-tro-lai-100260715112651538.htm"],
+          "unsure": "Дата возобновления катерных туров не найдена (15.07 — ещё стоят, операторы «готовятся»)."
+        },
+        {
+          "name_vi": "Hòn Xưởng (Hòn An Tây)", "name_ru": "Хон Шыонг (Ан Тэй)", "lat": 9.915, "lng": 104.005,
+          "inhabited": null,
+          "what": "Пляж, большой грот, кораллы — по туристическим блогам.",
+          "how_to_get": "Лодка из Ан Тхой.", "rules": "Не найдено.", "season": "Ноябрь–апрель.",
+          "visit_own": false, "overnight": "Нет данных.",
+          "sources": ["https://vinpearl.com/vi/hon-xuong-phu-quoc-kinh-nghiem-kham-pha-moi-nhat"],
+          "unsure": "Положение и население; редко в турах. Только строкой в списке."
+        },
+        {
+          "name_vi": "Hòn Vang", "name_ru": "Хон Ванг", "lat": 9.9, "lng": 104.04,
+          "inhabited": false,
+          "what": "Необитаемый; упоминается в списках островов.",
+          "how_to_get": "Лодка.", "rules": "—", "season": "—", "visit_own": false, "overnight": "—",
+          "sources": ["https://vinpearl.com/vi/thon-thuc-voi-ve-dep-cua-9-hon-dao-gan-phu-quoc"],
+          "unsure": "Положение не подтверждено; возможно, это «Hon Vong» напротив Гам Ги."
+        }
+      ],
+      "not_found": "Hòn Kiến Vàng — в сниппетах не найден ни для юга, ни для севера; полного официального списка 18 островов нет. Hòn Buồm — по одному источнику другое имя Móng Tay.",
+      "recommendation": "Одна групповая страница «Острова Ан Тхой» (рядом с районом phuquoc/anthoi, 18811). Внутри: большая карточка Хон Том (канатка, Sun World — фактически отдельная достопримечательность, ей можно оставить свою страницу/карточку и ссылаться); средние карточки Гам Ги (снорклинг), Монг Тай (пляж), Май Рут Чонг + Нгоай одной карточкой; строкой — Хон Зыа, Хон Рой, Хон Шыонг, Хон Ванг и остальные. Причины: 9/10 туристов попадают сюда одним катерным туром, выбирают тур, а не остров; про малые острова нет надёжных отдельных фактов (цены, правила, ночёвки); отдельные страницы на Хон Ванг/Хон Шыонг были бы пустыми. Обязателен блок безопасности (11.07.2026, правила 14.07, сезон муссона) и сверка, ходят ли туры сейчас.",
+      "sources": ["https://vinpearl.com/vi/quan-dao-an-thoi-phu-quoc-va-nhung-dieu-thu-vi-it-ai-biet", "https://sunparadiseland.com/SunParadiseLandPhuQuoc/tin-tuc/top-dao-dep-nhat-quan-dao-an-thoi-phu-quoc-va-cam-nang-trai-nghiem-26960", "https://news.tuoitre.vn/vietnams-phu-quoc-strengthens-waterway-regulations-after-tourist-boat-accident-103260714163223704.htm", "https://tienphong.vn/sau-vu-lat-ca-no-khien-15-nguoi-tu-vong-phu-quoc-siet-chat-hoat-dong-tau-du-lich-post1859543.tpo"]
+    },
+    {
+      "key": "phuquoc/north-islands",
+      "city": "phuquoc",
+      "name_ru": "Острова севера Фукуока",
+      "name_vi": "Các đảo phía Bắc Phú Quốc",
+      "center": [10.37, 103.85],
+      "summary": "Отдельного туристического «архипелага» на севере нет. Реально посещаемый — один островок Hòn Đồi Mồi у мыса Gành Dầu / пляжа Bãi Dài. Мыс Гань Дау ~4 км от границы с Камбоджей (два источника), с него видны камбоджийские острова. Северные туры по суше: Гань Дау, пчелиная ферма, каяки на реке Куа Кан, Рач Вем (морские звёзды).",
+      "islands": [
+        {
+          "name_vi": "Hòn Đồi Mồi", "name_ru": "Хон Зой Мой (Черепаший)", "lat": 10.37, "lng": 103.845,
+          "inhabited": false,
+          "what": "Крошечный островок ~1 км от северо-западного берега; снорклинг (~17 видов кораллов по одному источнику), маленький пляж.",
+          "how_to_get": "~5 мин на лодке от Bãi Dài (Vietnam Airlines guide); лодки от отелей/рыбаков Гань Дау. Цены расходятся (650–750 тыс. vs 1–2 млн за человека).",
+          "rules": "Не найдено. Близость к морской границе — не уходить дальше на север.",
+          "season": "Только сухой сезон (ноябрь–апрель); в мае–октябре на северо-западе волна.",
+          "visit_own": true, "overnight": "Нет.",
+          "sources": ["https://www.snorkeling-report.com/spot/snorkeling-doi-moi-turtle-island/", "https://www.vietnamairlines.com/en/useful-information/travel-guide/snorkeling-in-phu-quoc-island", "https://vinwonders.com/vi/wonderpedia/news/hon-doi-moi-dia-diem-kham-pha-vui-choi-ngam-san-ho-dep-bac-nhat-phu-quoc/"],
+          "unsure": "Точное положение (один источник пишет «запад»); цены."
+        },
+        {
+          "name_vi": "Mũi Gành Dầu (не остров)", "name_ru": "Мыс Гань Дау", "lat": 10.38, "lng": 103.84,
+          "inhabited": true,
+          "what": "Мыс, вид на Камбоджу; уже есть карточкой на сайте.",
+          "how_to_get": "По суше, ~30 км от Зыонг Донга.", "rules": "—", "season": "Круглый год.",
+          "visit_own": true, "overnight": "Да (отели севера).",
+          "sources": ["https://mytour.vn/vi/blog/bai-viet/kham-pha-dia-diem-diem-den-mui-ganh-dau-phu-quoc-kham-pha-hoan-hao.html", "https://www.greensm.com/vn-vi/news/mui-ganh-dau"],
+          "unsure": "—"
+        }
+      ],
+      "recommendation": "Отдельную страницу не делать. Хон Зой Мой — одна карточка-место (снорклинг) с привязкой к району Гань Дау/севера; там же абзац «острова Камбоджи видно, но плыть нельзя — граница ~4 км». Туристы на северные острова массово не ездят, тур-продуктов почти нет.",
+      "sources": ["https://www.civitatis.com/en/phu-quoc/north-island-tour?aid=3886", "https://www.vietjetair.com/en/pages/what-is-beautiful-in-the-northern-part-of-phu-quoc-island-suggestions-for-top-famous-tourist-spots-and-attractive-check-in-locations-for-visitors-1767844777249"]
+    },
+    {
+      "key": "hoian/culaocham",
+      "city": "hoian",
+      "name_ru": "Чамские острова (Кулао Чам)",
+      "name_vi": "Cù Lao Chàm",
+      "center": [15.95, 108.51],
+      "summary": "8 островов в ~15 км от Cửa Đại. Биосферный резерват ЮНЕСКО (2009), морской охраняемый район с 2004. Административно: коммуна Tân Hiệp, теперь город Đà Nẵng (после слияния 07.2025; Хойан тоже в составе Дананга). Обитаем только Hòn Lao (~3 тыс. жителей по одному источнику).",
+      "islands": [
+        {
+          "name_vi": "Hòn Lao", "name_ru": "Хон Лао", "lat": 15.955, "lng": 108.51,
+          "inhabited": true,
+          "what": "Главный остров: деревня Bãi Làng (причал, рынок, кафе, большинство хоумстеев), пляжи Bãi Chồng, Bãi Xếp, Bãi Ông, Bãi Hương (тихая деревня); храмы/святилища, колодец Чам; снорклинг у берега на 2–5 м.",
+          "how_to_get": "Скоростной катер из Cửa Đại (Хойан) ~20–30 мин (до 40 в волну). Утренние рейсы ~7:30–10:00, обратно ~13:00–15:00. Цены за катер разнятся (260–550 тыс.) — не публикуем. Есть и деревянная лодка местных (дешевле, дольше). Онлайн-брони обычно нет, в пик (июнь–август) места к середине утра кончаются.",
+          "rules": "Сбор за посещение 70 000 VND/чел./раз с 10.06.2026 (решение 16/2026/NQ-HĐND Дананга; бесплатно в Тет, 29.3, 26.5, 2.9) — два источника. Запрет одноразовых пластиковых пакетов (проверка на причале, замена на сетчатые). Запрет якорения на кораллах, ограничения рыбалки. Электричество ночью (22:00–6:00) может отключаться; банкоматов нет.",
+          "season": "Надёжно: март/апрель–август. Сентябрь–февраль (особенно октябрь–декабрь) — северо-восточный муссон, лодки часто не ходят («треть года не ходят»). Отменяют и летом при волне (июль 2026 — ~300 застрявших туристов). Официальных дат закрытия на 2026 не найдено.",
+          "visit_own": true,
+          "overnight": "Да: хоумстеи в Bãi Làng и Bãi Hương (200–700 тыс./ночь по разным источникам). Один хозяин сообщал о запрете ночёвки для паспортов КНР/Гонконга — не подтверждено. Кемпинг — нет данных.",
+          "suits": "Снорклинг-новички, пары, кто хочет «деревенский» остров на ночь; не для штормового сезона и людей с морской болезнью.",
+          "sources": ["https://baovanhoa.vn/du-lich/tu-ngay-106-muc-thu-phi-tham-quan-cu-lao-cham-la-70000-dongnguoiluot-235643.html", "https://baovanhoa.vn/moi-truong-khi-hau/10-nam-tien-den-khong-su-dung-tui-ni-long-tai-cu-lao-chamhoi-an-42748.html", "https://junglebosstours.com/vi/kham-pha/blog-du-lich/cu-lao-cham", "https://vnexpress.net/48-gio-o-cu-lao-cham-4776424.html", "https://hoiandaytrip.com/cham-island-overnight-stay/", "https://www.vietnamtourism.com/en/cham-island-from-hoi-an-boats-snorkelling-and-staying-overnight", "https://dtinews.dantri.com.vn/print/20260717154125625.htm", "https://vietnamnet.vn/cu-lao-cham-vien-ngoc-xanh-24470.html"],
+          "unsure": "Цена катера 2026; официальные даты сезонного прекращения; включён ли сбор 70 тыс. в цену туров; ограничение по паспортам; лимит посетителей в день (не найден — фраза «50 человек в день» на нашей странице 7794 не подтверждается)."
+        },
+        {
+          "name_vi": "Hòn Dài", "name_ru": "Хон Зай", "lat": 15.94, "lng": 108.495,
+          "inhabited": false,
+          "what": "Самая посещаемая точка снорклинга, мелкие коралловые сады 2–5 м, ~15 мин на лодке от Bãi Làng.",
+          "how_to_get": "Только лодкой в составе тура/с местным лодочником.", "rules": "Правила МОР (не трогать кораллы).", "season": "Как у Хон Лао.",
+          "visit_own": false, "overnight": "Нет.",
+          "sources": ["https://junglebosstours.com/vi/kham-pha/blog-du-lich/cu-lao-cham"],
+          "unsure": "Зонирование МОР не найдено."
+        },
+        {
+          "name_vi": "Hòn Mồ", "name_ru": "Хон Мо", "lat": 15.94, "lng": 108.48,
+          "inhabited": false,
+          "what": "Кораллы лучше, но дальше; частная лодка или дайв-центр.",
+          "how_to_get": "Лодка.", "rules": "МОР.", "season": "Как у Хон Лао.", "visit_own": false, "overnight": "Нет.",
+          "sources": ["https://junglebosstours.com/vi/kham-pha/blog-du-lich/cu-lao-cham"], "unsure": "Один источник."
+        },
+        {
+          "name_vi": "Hòn Khô Mẹ / Hòn Khô Con", "name_ru": "Хон Кхо Ме / Хон Кхо Кон", "lat": 15.92, "lng": 108.47,
+          "inhabited": false,
+          "what": "Скалистые островки; дайвинг с лодки.", "how_to_get": "Лодка дайв-центра.",
+          "rules": "По одному гиду — закрыты для высадки (гнездовья).", "season": "—", "visit_own": false, "overnight": "Нет.",
+          "sources": ["https://junglebosstours.com/vi/kham-pha/blog-du-lich/cu-lao-cham"], "unsure": "Закрытость — один источник."
+        },
+        {
+          "name_vi": "Hòn Lá", "name_ru": "Хон Ла", "lat": 15.965, "lng": 108.53,
+          "inhabited": false, "what": "Скалы, гнёзда саланган.", "how_to_get": "—",
+          "rules": "Закрыт для туристов (один источник).", "season": "—", "visit_own": false, "overnight": "Нет.",
+          "sources": ["https://junglebosstours.com/vi/kham-pha/blog-du-lich/cu-lao-cham"], "unsure": "Да."
+        },
+        {
+          "name_vi": "Hòn Tai", "name_ru": "Хон Тай", "lat": 15.945, "lng": 108.53,
+          "inhabited": false, "what": "Скалы, гнёзда саланган.", "how_to_get": "—",
+          "rules": "Закрыт для туристов (один источник).", "season": "—", "visit_own": false, "overnight": "Нет.",
+          "sources": ["https://junglebosstours.com/vi/kham-pha/blog-du-lich/cu-lao-cham"], "unsure": "Да."
+        },
+        {
+          "name_vi": "Hòn Ông", "name_ru": "Хон Онг", "lat": 15.98, "lng": 108.55,
+          "inhabited": false, "what": "Маленький скалистый остров.", "how_to_get": "—", "rules": "—", "season": "—",
+          "visit_own": false, "overnight": "Нет.",
+          "sources": ["https://vietnamnet.vn/cu-lao-cham-vien-ngoc-xanh-24470.html"], "unsure": "Координаты и статус — без источника."
+        }
+      ],
+      "recommendation": "Одна страница «Чамские острова» (на базе существующей 7794, переписать и выправить факты). Внутри: Хон Лао — основной текст (деревни, пляжи, ночёвка, сбор 70 тыс., пакеты, сезон); Хон Зай и Хон Мо — блок «где нырять»; остальные 5 — одна строка «скалы, высадки нет». Обитаем только Хон Лао, все туры = один день на Хон Лао + 1–2 точки снорклинга, отдельные страницы бессмысленны. 14700 (attractions) оставить карточкой-ссылкой на эту страницу.",
+      "sources": ["https://en.wikipedia.org/wiki/Ch%C3%A0m_Islands", "https://vietnamspot.ru/en/blog/hoi-an-cham-islands", "https://hoiandaytrip.com/cham-island-ferry/"]
+    },
+    {
+      "key": "nhatrang/north-islands",
+      "city": "nhatrang",
+      "name_ru": "Северные острова Нячанга (залив Няфу)",
+      "name_vi": "Vịnh Nha Phu",
+      "center": [12.38, 109.22],
+      "summary": "Залив Nha Phu к северу от Нячанга (~15–20 км). Отправление — туристический причал Long Phú (район Vĩnh Lương / порт Đá Chồng). Формат — парки-аттракционы с шоу животных, а не дикая природа. Важно: «Остров Орхидей» — не остров, а парк на полуострове Hòn Hèo.",
+      "islands": [
+        {
+          "name_vi": "Đảo Khỉ (Hòn Lao, Nha Trang)", "name_ru": "Остров Обезьян (Хон Лао)", "lat": 12.38, "lng": 109.205,
+          "inhabited": false,
+          "what": "~25 га; 1 200–1 500 полудиких макак (источники расходятся); цирк обезьян/собак, пляж, мелкие развлечения. Работает ~7:30–16:30.",
+          "how_to_get": "Причал Long Phú → лодка ~15 мин.",
+          "rules": "Держать сумки закрытыми, не кормить с рук сверх правил. Цена 180 тыс. взрослый (Vinwonders) — второй источник не совпал ($36 в другом гиде — видимо, тур), не публикуем.",
+          "season": "Круглый год; октябрь–декабрь — дожди и волна в заливе меньше, чем на открытых островах.",
+          "visit_own": true, "overnight": "Нет.",
+          "sources": ["https://vinwonders.com/vi/wonderpedia/news/dao-khi-nha-trang/", "https://vinpearl.com/ru/ostrov-obezyan-nyachang-nha-trang", "https://www.vietnamtourism.com/vi/ao-khi-o-nha-trang-hon-lao-co-ang-ghe-tham"],
+          "unsure": "Цена 2026; совпадение имени с Hòn Lao на Чамских островах — в тексте развести."
+        },
+        {
+          "name_vi": "Đảo Hoa Lan (bán đảo Hòn Hèo)", "name_ru": "Остров Орхидей (Хоа Лан)", "lat": 12.40, "lng": 109.25,
+          "inhabited": false,
+          "what": "Парк: сад орхидей, фотозоны, шоу животных (слоны/медведи/птицы — по старым описаниям), пляж, ручей.",
+          "how_to_get": "Причал Long Phú → лодка через залив Няфу; часто в связке с Островом Обезьян (общий причал).",
+          "rules": "Входной билет; цена 2026 не подтверждена.", "season": "Круглый год.",
+          "visit_own": true, "overnight": "Нет данных (бунгало на пляже в турах — дневные).",
+          "sources": ["https://mia.vn/cam-nang-du-lich/khu-du-lich-dao-hoa-lan-20746", "https://www.greensm.com/vn-vi/news/dao-hoa-lan", "https://www.tisland.travel/en/excursion/nha-trang-northern-islands-monkey-orchid-elephant"],
+          "unsure": "Идут ли сейчас шоу со слонами/медведями (этически спорно — проверить перед публикацией); цена."
+        },
+        {
+          "name_vi": "Hòn Thị", "name_ru": "Хон Тхи", "lat": 12.33, "lng": 109.22,
+          "inhabited": null,
+          "what": "Остров в заливе Няфу, природная зона (раньше страусы и др.).",
+          "how_to_get": "От причала Long Phú.", "rules": "—", "season": "—",
+          "visit_own": null, "overnight": "—",
+          "sources": ["https://vinpearl.com/vi/ghe-hon-thi-nha-trang-ngay-om-tron-thien-nhien-tuoi-mat-vao-long", "https://www.greensm.com/vn-vi/news/hon-thi-nha-trang"],
+          "unsure": "Работает ли в 2026 — не подтверждено; не включать без проверки."
+        }
+      ],
+      "existing_cards_note": "Залив Нячанг (южные/центральные острова) уже покрыт: Хон Мун, Хон Там, Хон Тре, Зьеп Шон, Хон Мьеу + хаб 18701. Северные — только тур 12704.",
+      "recommendation": "Одна групповая страница «Северные острова Нячанга / залив Няфу» с двумя карточками (Остров Обезьян, Остров Орхидей) и строкой про Хон Тхи после проверки; ссылка из хаба 18701 и из тура 12704. Оба места продаются комбо-билетом и туром с одного причала, по отдельности не ищут.",
+      "sources": ["https://www.sputnik8.com/ru/nha-trang/category/na-severnye-ostrova", "https://vietnamspot.ru/en/blog/nha-trang-attractions", "https://www.klook.com/activity/41509/"]
+    }
+  ],
+  "notes": [
+    "ЕПИ-сигналы (для memory/epi-signals.md): (1) 11.07.2026 катастрофа катера у Хон Май Рут Нгоай, 15 погибших; 14.07 — распоряжение đặc khu Phú Quốc; дата возобновления туров не найдена — проверить и поправить туры 10687/8537/12056 («май–октябрь — туры ходят»). (2) Кулао Чам: сбор 70 000 VND с 10.06.2026 — на странице 7794 нет. (3) июль 2026 — ~300 туристов застряли на Кулао Чам из-за запрета выхода.",
+    "Страница 7794 (Чамские острова) содержит непроверяемые/вероятно выдуманные детали (храм XIII в., лимит 50 человек, «деревня Хайян», ферма перца, сезон сентябрь–ноябрь) — переписать при создании групповой страницы.",
+    "Административные названия после 07.2025: Phú Quốc = đặc khu, провинция An Giang; Cù Lao Chàm = xã Tân Hiệp, TP Đà Nẵng; Nha Phu — phường Hòa Phú / Ninh Hòa area, Khánh Hòa. Многие источники ещё пишут Kiên Giang / Quảng Nam.",
+    "«18 островов Ан Тхой» — устойчивое число, но полного списка нет ни в одном источнике. Hòn Kiến Vàng не найден вообще.",
+    "Все координаты — приблизительные (±1–2 км), перед публикацией сверить по карте."
+  ]
+}
