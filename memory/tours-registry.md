@@ -26,4 +26,4 @@
 ## 02.11 — Туихоа на новых адресах
 - `migrate tour-urls:apply`: 3 тура `/vietnam/excursions/tuyhoa/…` → `/vietnam/tuyhoa/excursions/…`, 301 работают (проверено), старые 65 переадресаций 25.10 сохранены (скрипт теперь дописывает карту, а не затирает). Копия: `~/lf-deploy-backups/migrations/tour-urls-20261102-143219.json`.
 - **Причина была в шаблоне Permalink Manager** для новых туров: `vietnam/excursions/%__option-gorod%/%tours%` → исправлен на `vietnam/%__option-gorod%/excursions/%tours%`. Новые туры сразу получают правильный адрес.
-- У Туихоа нет страницы-раздела экскурсий `/vietnam/tuyhoa/excursions/` (404; раньше `/vietnam/excursions/tuyhoa/` тоже не было).
+- 02.11: **раздел экскурсий Туихоа** `/vietnam/tuyhoa/excursions/` создан (владелец «+»): город в `lfth_cities()` (lf-tour-hubs.php), страница — `migrate hub-tuyhoa:apply` по образцу раздела Ханоя. Старый `/vietnam/excursions/tuyhoa/` → 301 сюда. У Донгхоя (1 тур) раздела нет.
