@@ -42,3 +42,9 @@
 - 18909 переписан на весь Вьетнам (19.10, владелец: «на весь Фукуок — палимся, что взяли статью»): общий закон + вкладки по городам. Ключи вкладок для ссылок со страниц городов: `#tab-phuquoc`, `#tab-danang`, `#tab-nhatrang`, `#tab-muine`, `#tab-vungtau`, `#tab-hoian`, `#tab-quynhon`. Текст — `data/spravka/beach-access-vn.html`, до правки — `18909-before.json`, что не проверено — `unsure` в `beach-access-vn.json`. Новый город — новой вкладкой, по 5–6 предложений, только факты из новостей и законов.
 - Маршруты 7 и 14 дней — задание 36 (страницы 18907/18908). Билеты с заказом — задание 35.
 - Урок: не ставить `// комментарий` в середину строки PHP — съел поле `extra` у двух районов.
+
+## Индийские рестораны Фукуока — ревизия 04.11.2026
+- Было на сайте 3: Rajwadi Zaikah 17993 (центр), Maharaja Lounge 18141 и Delhi Darbaar 17985 (Sunset Town; у 17985 не было точки — поставлена).
+- Заведены в центре (Зыонг Донг и начало Чан Хынг Дао; Google 4.5+ и 100+ отзывов, плюс сеть Ganesh): 20019 Benaras Pearl, 20020 Bombay Indian (Ле Лой), 20021 Rasoi (вег.), 20022 Maharaja Lounge 107 THĐ (вег.), 20023 Ganesh, 20024 Sri Raja Bhojanam, 20025 Gujarat, 20026 Krishna Garden (вег.), 20027 Bombay Pure Veg, 20028 Sher-e-Punjab. Миграция `pq-indian-add`, ревизия — info `pq-indian`.
+- Не заводили (кандидаты): середина Лонг Бича (Theater 4.7/428, Spice India, New Delhi, Desi, Pakka в Salinda), Grand World (~17 индийских: Lake Masala 4.8/2201, Maharaja Lounge GW, Kadhai, Curry Kingdom, Punjabi Zaaika…), Sunset Town (Maa, King of Spices, Panipuri, Swad Kitchen, Apnaa Dhaba, Amritsar Grill), Сонаси (Spice India). Фото у новых нет.
+- **Google Places: дневная квота GetPlaceRequest маленькая** (кончилась после ~15 запросов). При 429 «per day» — поиск searchText (другая квота) с проверкой place_id. Крон часов ночной жизни (lfnh_daily) в такой день тоже не обновит часы.
