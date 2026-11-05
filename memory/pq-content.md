@@ -53,3 +53,5 @@
 - Кухня определяется по названию/описанию; при коротком названии ставить ACF `kitchen` = Indian (миграция `pq-indian-kitchen`). После массового заведения карточек сбросить кэш раздела — миграция `lfvh-flush`.
 - 18141 Maharaja Lounge (Sunset Town) — без оценки и часов Google (поиск не находит); обновить, когда будет квота Place Details.
 - Акции на карточке заведения: на компьютере (если есть фото) — под фото, на телефоне — в описании (page-object-v2.php, .ob2-deals-d / -m).
+
+- 05.11.2026 индийские на Фукуоке (владелец прислал: Desi, Sher-e-Punjab, Ganesh, Benaras, Sri Raja Bhojanam): уже были Sher-e-Punjab 20028, Ganesh 20023, Benaras Pearl 20019, Sri Raja Bhojanam 20024; добавлены (migrate pq-indian-add2, Google Places): **Desi — индийская вегетарианская кухня** (Pure Veg, у моста Cầu Bà Phong, Кыа Лап / середина Лонг Бича, ★4.8/73) и **Benaras Aria (Бай Дай)** (клубный дом Palma у Meliá Vinpearl, новое, 1 отзыв). Подборка /vietnam/phuquoc/food/restaurants/indian/ — 17 мест.
