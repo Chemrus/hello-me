@@ -5,3 +5,12 @@
 - Сделано (выложено 25.10, main 130d0f6): `mu-plugins/lf-font-preload.php` — preload 400/700/800; в `style.css` правило Regular берёт тот же woff2 (раньше лишний .ttf 80 КБ на каждой странице). Проверено подменой на живой странице: шрифты на 1,5 с (до первого показа), картинка та же.
 - Там же (коммит 61794a3): `mu-plugins/lf-first-paint.php` — часы `.js-local-time` с первого показа (до main-script.js), погода: полоска `.lf-wx-wait` вместо «-»/«погода не работает» (15 с — потом прежний текст), подложка под фото главной. Preload фото главной НЕ ставить: у img уже fetchpriority=high, фото приходит до первого показа, preload отнимает скорость у шрифтов (замер).
 - Ещё видно при загрузке: «Язык» → флаг (скрипт в lf-navigation-targets.php), (прочерки в погоде и фото — сделано выше). Тяжесть: HTML Фукуока ~930 КБ, общий CSS ~570 КБ — отдельная работа.
+
+## 05.11.2026 — Lighthouse, страница Фукуока (мобильный)
+- PageSpeed показал «Error!» в LCP (NO_LCP) и TBT — разовый сбой самого замера; у нас Lighthouse 12.1 проходит, LCP-элемент — плашка «Внимание» (`P.lfsa__action`), ~2,9 с.
+- Сделано (main 8f2ffe6, 94cfbb8): `mu-plugins/lf-perf-assets.php` — Voice Widgets (озвучка) сняты везде, где нет её разметки (в записях и шаблонах её нет нигде); скрипты корзины WooCommerce — только где товары (`letfind_page_has_product_block`, страницы магазина, шорткоды). Учёт источника заказа (sourcebuster/order attribution) оставлен.
+- jquery.countdown (+plugin, ru): на `games` — сразу, на остальных — заглушка `$.fn.countdown` грузит библиотеку при первом вызове (`letfind_countdown_lazy_js` в functions.php).
+- Карта эпох: карточки точек в `<template class="cem__cards">` — GTranslate их переводит (проверено /en/), DOM 6,4 тыс. → 5,05 тыс.
+- Данные «Еды» (lf-homefood), «Какой день», LF_CEM — JSON_UNESCAPED_UNICODE.
+- Итог (3 прогона до/после): 55–77 → 76–78, TBT 350–1730 мс → 350–410 мс, холодный прогон больше не проваливается.
+- Осталось: CookieYes (script.min.js, длинная задача 0,3–0,46 с), Cloudflare JS-проверка ботов (`/cdn-cgi/challenge-platform/scripts/jsd/main.js`, 0,25–0,75 с — настройка Cloudflare, не код), 5 тыс. элементов (скрытые вкладки города), Style & Layout ~1,4 с, Speed Index ~6,5 с.
