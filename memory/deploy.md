@@ -51,3 +51,11 @@
 - Исправлено в `mu-plugins/lf-login-cache.php` (login_redirect, 99): у кого есть право edit_posts — **всегда в админку** (или на запрошенную страницу админки), даже если вход вёл на главную (06.11 владелец видел https://letfind.me/?nc=… — это ключ против кэша Cloudflare, его добавляет этот же модуль после входа); гости — как раньше (кабинет с ?nc).
 - Входить в админку — через https://letfind.me/wp-login.php (кнопка «Мой кабинет» — это форма WP-Recall для гостей).
 - Проверки без пароля: info `admin-redirect` (временная сессия администратора, код ответа /wp-admin/), info `rcl-login` (итог login_redirect).
+
+## SEO-уборка 06.11.2026 (migrate seo-cleanup-1106)
+- Подтверждения: Google — один тег (тема печатает свой, только если плагин Google for WooCommerce выключен); Яндекс — код в AIOSEO
+  (был вставлен тег без «<»), тег в теме — запасной, только если в AIOSEO пусто; в поле Bing был номер GTM — очищено.
+- Сайт Узбекистана: название «LetFind Узбекистан: события, места и услуги» (было «Explore Uzbekistan: …»), описание главной — так же.
+- Удалены страницы плагинов членства (Indeed Ultimate Membership Pro, Ultimate Member): 14 на letfind.me, 9 на /uzbekistan/.
+  Копия: lf-private/backup/membership-pages-site{1,2}-20261106-*.json. /user/ («Login») — это не их страница, осталась.
+- Карта сайта: адреса, с которых AIOSEO делает 301 (Переадресации), больше не попадают (lfsc_redirect_sources, lf-sitemap-clean.php).
