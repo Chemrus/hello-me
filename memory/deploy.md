@@ -70,3 +70,9 @@
   переадресации Permalink Manager. Две записи раздела живут в городах (vietnam/danang/first-week, vietnam/phuquoc/winter-stay) — не трогали.
 - Код (lfvs_sections + 80 ссылок) — в main; 3 ссылки вели через цепочку/в никуда — исправлены (winter-stay → /vietnam/hints/wintering/).
 - Проверено: /hints/ → 301 /vietnam/hints/, все 50 адресов карты hints и 253 карты страниц — 200.
+- Старая таблица `wpe4_redirects` — плагин EPS 301 Redirects, всего 6 правил; 06.11 исправлены (redirects-old-fix): все ведут в один переход.
+- Cloudflare кэширует ответы 301 (cf-cache-status: HIT): после правки переадресаций — dispatch `purge` (SiteGround + Cloudflare целиком).
+- Ссылки в текстах записей на старые адреса разделов (Permalink Manager) — migrate content-hints-links: 06.11 заменено 239 ссылок в 126 записях,
+  копия текстов — lf-private/backup-content-hints-links-20261106-192014.json. Переадресации PM бывают устаревшими (Grand World, Хон Тхом,
+  /cities/hoshimin/): миграция их пропускает, если новый адрес сам 301. Перед :apply план выдаёт LFTARGETS — все цели проверять curl'ом.
+- Полная проверка карты сайта 06.11: 40 карт, 1774 адреса — все 200 (скрипт scratchpad smcheck/run.sh: карты → адреса → коды).
