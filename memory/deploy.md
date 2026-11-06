@@ -59,3 +59,14 @@
 - Удалены страницы плагинов членства (Indeed Ultimate Membership Pro, Ultimate Member): 14 на letfind.me, 9 на /uzbekistan/.
   Копия: lf-private/backup/membership-pages-site{1,2}-20261106-*.json. /user/ («Login») — это не их страница, осталась.
 - Карта сайта: адреса, с которых AIOSEO делает 301 (Переадресации), больше не попадают (lfsc_redirect_sources, lf-sitemap-clean.php).
+- Переадресаций на сайте ТРИ источника: AIOSEO (`{prefix}aioseo_redirects`), Permalink Manager (опция `permalink-manager-redirects`:
+  id ⇒ [старые uri]) и старая таблица `wpe4_redirects` (url_from → url_to, status, count; срабатывает только без строки запроса —
+  с `?x=1` страница отдаёт 200). Карта сайта читает AIOSEO и wpe4_redirects (кэш `lfsc_redir_src3`). Искать источник 301 — info redir-one.
+- Ярлык с эмодзи (в базе `%f0%9f…`) Permalink Manager кодирует дважды → адрес из карты отдаёт 301. Лечится чистым uri (как hints-emoji-3884).
+- Пуш-деплой может отменить чужой dispatch (одна очередь): после пуша проверять, что запуск «push» не cancelled; иначе — dispatch deploy с id = предыдущий sha.
+
+## Перенос «Инструкций» в /vietnam/hints/ — ГОТОВО 06.11.2026
+- migrate hints-to-vietnam:apply: 48 материалов → vietnam/hints/<slug без «vietnam-»>, список 4522 hints → vietnam/hints, старые uri — в
+  переадресации Permalink Manager. Две записи раздела живут в городах (vietnam/danang/first-week, vietnam/phuquoc/winter-stay) — не трогали.
+- Код (lfvs_sections + 80 ссылок) — в main; 3 ссылки вели через цепочку/в никуда — исправлены (winter-stay → /vietnam/hints/wintering/).
+- Проверено: /hints/ → 301 /vietnam/hints/, все 50 адресов карты hints и 253 карты страниц — 200.
