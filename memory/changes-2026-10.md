@@ -25,3 +25,5 @@
 Мелочи, найденные при обновлении (не чинил):
 - В кабинете ссылка «У меня бизнес…» ведёт на `/business/services/` → 301 на `/vietnam/business/services/` (`plugins/letfind-cabinet/includes/render.php`).
 - В подвалах темы ссылка на профиль `/profi/che.rus` → 301 на `/vietnam/profi/che.rus`.
+
+- 06.11.2026: владелец — «/hints переводим на /vietnam/». Подготовлено: migrate hints-to-vietnam (адреса vietnam/hints/<slug без «vietnam-»> + переадресация в Permalink Manager), ветка hints-to-vietnam (раздел в lfvs_sections + 80 ссылок в коде). Не применено: с 18:22 GitHub Actions не запускает задачи (падают за 2–3 с без шагов).
