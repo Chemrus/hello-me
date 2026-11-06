@@ -38,3 +38,10 @@
 - С 29.10 другие агенты работают через ветки и PR (Merge pull request #2…#26), снимки сервера кладут отдельными PR.
 - 31.10.2026: владелец попросил поставить агенту **TokenEconomizer** (github.com/microsoft/TokenEconomizer, плагин Claude Code: выученные факты о репозитории, отключение неиспользуемых инструментов, защита от зацикливания). Проверен: в сеть сам не ходит, состояние в `~/.tokeneconomizer`. Поставлен в контейнер сессии (`/root/tools/TokenEconomizer`, `claude plugin install tokeneconomizer@tokeneconomizer`). Работает со следующей сессии; облачный контейнер временный, поэтому постоянно — только через «Setup script» среды (клон + `claude plugin marketplace add` + `claude plugin install`). Обучение копится в `~/.tokeneconomizer` и теряется вместе с контейнером: факты появляются после 3 сессий, отключение инструментов — после 5.
 - 01.11.2026: если выкладка по пушу упала (ошибка синтаксиса — «Проверка кода» останавливает до записи), следующий пуш тоже остановится «изменён на сервере»: его разница считается от непрошедшего коммита. Лечение — ручной `deploy` с id = последний удачно выложенный коммит (так 01.11: id 458498c). И не склеивать `php -l …; git commit` через «;» — только через `&&`.
+
+## Журнал ошибок (06.11.2026)
+- На сервере WP_DEBUG и WP_DEBUG_LOG включены (показ ошибок выключен), журнал — `wp-content/debug.log` (по ссылке закрыт, 403).
+- 06.11 журнал был 1 ГБ: почти всё — Notice «_load_textdomain_just_in_time … too early» (ACF) и Deprecated PHP 8.4 из плагина Order One Click. Владелец: «почистить и отключить +».
+- `mu-plugins/lf-quiet-log.php` — Deprecated и Notice (и «doing it wrong» WordPress) больше не пишутся; Fatal, Parse, Warning — пишутся.
+- Очистка — migrate `debug-log-clean` (план показывает размер и частые записи; :apply — хвост 2 МБ в `/home/customer/www/letfind.me/lf-private/logs/`, журнал обнуляется).
+- **Не класть ничего служебного в wp-content**: файл там открывается по ссылке (архив журнала 06.11 был доступен — перенесён migrate `debug-log-move`). Закрытые файлы — в `/home/customer/www/letfind.me/lf-private/` (вне public_html; там же документы кабинета для бизнеса).
