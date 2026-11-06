@@ -45,3 +45,9 @@
 - `mu-plugins/lf-quiet-log.php` — Deprecated и Notice (и «doing it wrong» WordPress) больше не пишутся; Fatal, Parse, Warning — пишутся.
 - Очистка — migrate `debug-log-clean` (план показывает размер и частые записи; :apply — хвост 2 МБ в `/home/customer/www/letfind.me/lf-private/logs/`, журнал обнуляется).
 - **Не класть ничего служебного в wp-content**: файл там открывается по ссылке (архив журнала 06.11 был доступен — перенесён migrate `debug-log-move`). Закрытые файлы — в `/home/customer/www/letfind.me/lf-private/` (вне public_html; там же документы кабинета для бизнеса).
+
+## Вход в админку (06.11.2026)
+- Владелец: «/wp-admin/ … меня сразу в кабинет клиента отправляет». Причина: после входа WP-Recall (`rcl_edit_default_login_redirect`, login_redirect, приоритет 10) подменял адрес назначения на кабинет.
+- Исправлено в `mu-plugins/lf-login-cache.php` (login_redirect, 99): у кого есть право edit_posts — туда, куда шли в /wp-admin, иначе в админку; гости — как раньше (кабинет с ?nc).
+- Входить в админку — через https://letfind.me/wp-login.php (кнопка «Мой кабинет» — это форма WP-Recall для гостей).
+- Проверки без пароля: info `admin-redirect` (временная сессия администратора, код ответа /wp-admin/), info `rcl-login` (итог login_redirect).
